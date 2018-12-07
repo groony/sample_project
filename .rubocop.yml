@@ -1,0 +1,37 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - db/**/*
+    # Because this below isn't under my control. toad.
+    - app/admin/**/*
+    - app/mailers/**/*
+Rails:
+  Enabled: true
+Style/Documentation:
+  Enabled: false
+Style/DoubleNegation:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Rails/SkipsModelValidations:
+  Enabled: false
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+Rails/OutputSafety:
+  Enabled: false
+Rails/Date:
+  Enabled: false
+Lint/EmptyWhen:
+  Enabled: false
+Style/SymbolProc:
+  Enabled: false
+Style/NumericPredicate:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Metrics/AbcSize:
+  Max: 20
+Metrics/LineLength:
+  Max: 120
+Metrics/MethodLength:
+  Max: 20

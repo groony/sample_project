@@ -1,0 +1,28 @@
+ru:
+  time:
+    formats:
+      long: "%Y-%m-%d %H:%M:%S"
+  activerecord:
+    models:
+      admin_user:
+        few: 'Администратора'
+        many: 'Администраторов'
+        one: 'Администратор'
+        other: 'Администраторы'
+    attributes:
+    errors:
+      models:
+  attributes:
+    id: ID
+    title: Название
+    created_at: 'Дата и время создания'
+    updated_at: 'Дата и время обновления'
+    sign_in_count: 'Количество авторизаций'
+    current_sign_in_at: 'Аторизован в'
+    image: Изображение
+    description: Описание
+    remove_image: 'удалить изображения'
+    promotion: 'Акция'
+    state: 'Статус'
+  sidekiq: 'Фоновые задачи'
+  services: 'Служебное'

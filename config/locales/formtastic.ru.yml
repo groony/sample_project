@@ -1,0 +1,12 @@
+ru:
+  formtastic:
+    yes: Да
+    no: Нет
+    :yes: 'Да'
+    :no: 'Нет'
+    create: Создать %{model}
+    update: Обновить %{model}
+    submit: Сохранить %{model}
+    cancel: Отменить %{model}
+    reset: Обнулить %{model}
+    required: обязательно
