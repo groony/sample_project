@@ -44,6 +44,13 @@ group :development do
 
   # Code styling
   gem 'rubocop', '~> 0.60'
+
+  # Deployment
+  gem 'capistrano', '~> 3.11', require: false
+  gem 'capistrano-rails', '~> 1.4', require: false
+  gem 'capistrano-rbenv', '~> 2.1'
+  gem 'capistrano-sidekiq'
+  gem 'capistrano3-puma'
 end
 
 group :test do
