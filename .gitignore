@@ -22,6 +22,5 @@
 /db/structure.sql
 /db/schema.rb
 .ruby-version
-config/credentials.yml.enc
 config/master.key
 /storage/*
